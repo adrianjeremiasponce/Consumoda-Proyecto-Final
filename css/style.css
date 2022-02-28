@@ -5,12 +5,20 @@
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 3vh;
-
+    margin-left: 3vh;
 }
 .enlace:hover{
     color: #BDE0FE;
 }
-
+.portadaPreguntasFrecuentes{
+    background-image: url(../images/PortadaPreguntasFrecuentes.png);
+    background-size:cover;
+    height: 60vh;
+}
+.main{
+    background-color: #FFC8DD;
+    padding: 3vh;
+}
 .footer{
     background-color: #FFAFCC;
 }
@@ -21,3 +29,13 @@
     color: white;
     font-style: italic;
 }
+
+
+.accordionMargin {
+    margin: 30px auto; }
+  
+  .carouselAjustes {
+    width: 55vh; }
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: #fad7f8; }  
