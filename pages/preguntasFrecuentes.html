@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Consumoda es un sitio web que busca proporcionarte distintos recursos para disfrutar de la moda">
-    <meta name="keywords" content="moda, ropa, estilo, fashion, diseño, looks, pasarela, tienda, estética">
+        content="Conoce sobre nuestras formas de envío, políticas de reembolso y consultas que nos realizan seguido">
+    <meta name="keywords" content="moda, consultas, ofertas, envios, estilo, diseño, reembolsos, tienda">
     <link rel="shortcut icon" href="../images/icono.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -19,10 +19,11 @@
 <body>
     <header class="header">
         <!-- Navbar -->
-        <div class="container">
-            <nav class="navbar navbar-expand-xl navbar-light bg-white py-3">
-                <div class="container-fluid">
-                    <span class="navbar-brand mb-0 h1 titulo">Consumoda</span>
+        <div>
+            <nav class="navbar navbar-expand-xl barraDeNavegacion py-3">
+                    <a class="navbar-brand" href="#">
+                        <img src="../images/logo.png" alt="Logo" width="250">
+                      </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic"
                         aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -30,19 +31,19 @@
                     <div class="collapse navbar-collapse show" id="navbarBasic">
                         <ul class="navbar-nav me-auto mb-2 mb-xl-0">
                             <li class="nav-item">
-                                <a class="nav-link active " aria-current="page" href="../index.html">Inicio</a>
+                                <a class="nav-link enlace"  href="../index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="tienda.html">Tienda</a>
+                                <a class="nav-link enlace" href="./tienda.html">Tienda</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="./blog.html">Blog</a>
+                                <a class="nav-link enlace" href="./blog.html">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="./nosotros.html">Nosotros</a>
+                                <a class="nav-link enlace" href="./nosotros.html">Nosotros</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Preguntas
+                                <a class="nav-link enlace" href="./preguntasFrecuentes.html">Preguntas
                                     Frecuentes</a>
                             </li>
 
@@ -55,8 +56,9 @@
         <div class="p-5 text-center bg-image portada centrado">
             <div class="d-flex justify-content-center align-items-center h-100">
                 <div class="text-white">
-                    <h2 class="mb-3">¡Te damos la Bienvenida!</h2>
-                    <a class="btn btn-outline-light btn-lg" href="./pages/tienda.html" role="button">Tienda</a>
+                    <h2 class="mb-3">Preguntas Frecuentes</h2>
+                    <h5>¡A continuación te presentamos </h5>
+                    <h5>algunas preguntas que nos suelen hacer </h5>
                 </div>
             </div>
         </div>
@@ -64,37 +66,34 @@
     </header>
 
 
-    <footer class="bg-dark text-white pt-5 pb-4">
+    <footer class="footer text-white pt-5 pb-4">
         <div class="container text-center text-md-left">
             <div class="row text-center text-md-left">
                 <div class="col-md-3 col-lg-3 col-xl-3  mt-3 mx-auto">
-                    <h3 class="text-uppercase mb-4 font-weight-bold text-info">Consumoda</h3>
-                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, aspernatur iure non quam quia
-                        aliquid saepe nemo tempore, fuga, corrupti dicta necessitatibus. Provident, eum earum?</p>
+                    <h3 class="text-uppercase mb-4 font-weight-bold textoFooter">Consumoda</h3>
+                    <p>Este sitio web ha sido creado para poder proporcionarte una nueva experiencia a la hora de aprender sobre moda y nuevas tendencias. Contamos con un sitio ideal para que puedas adquirir nuevas prendas de ropa. A su vez, te brindamos ofertas y novedades que te permitirán poder estar al tanto de todo lo nuevo.</p>
                 </div>
                 <div class="col-md-2 col-lg2 col-xl-2 mx-auto mt-3">
-                    <h5 class="text-uppercase mb-4 font-weight-bold text-info"> Secciones</h5>
+                    <h5 class="text-uppercase mb-4 font-weight-bold textoFooter"> Secciones</h5>
                     <p>
-                        <a href="./index.html" class="seccion--inicio" style="text-decoration: none;">Inicio</a>
+                        <a class="nav-link enlace enlaceFooter"  href="../index.html">Inicio</a>
                     </p>
                     <p>
-                        <a href="./pages/blog.html" class="seccion--blog" style="text-decoration: none;">Blog</a>
+                        <a class="nav-link enlace enlaceFooter"  href="./blog.html">Blog</a>
                     </p>
                     <p>
-                        <a href="./pages/nosotros.html" class="seccion--nosotros"
-                            style="text-decoration: none;">Nosotros</a>
+                        <a class="nav-link enlace enlaceFooter"  href="./nosotros.html">Nosotros</a>
                     </p>
                     <p>
-                        <a href="./pages/preguntasFrecuentes.html" class="seccion--preguntasFrecuentes"
-                            style="text-decoration: none;">Preguntas Frecuentes</a>
+                        <a class="nav-link enlace enlaceFooter"  href="./preguntasFrecuentes.html" >Preguntas Frecuentes</a>
                     </p>
                     <p>
-                        <a href="./pages/tienda.html" class="seccion--tienda" style="text-decoration: none;">Tienda</a>
+                        <a class="nav-link enlace enlaceFooter" href="./tienda.html"  >Tienda</a>
                     </p>
                 </div>
 
                 <div class="col-md4 col-lg-3 col-xl-3 mt-3 mx-auto">
-                    <h5 class="text-uppercase text-info">Síguenos en Instagram </h5>
+                    <h5 class="text-uppercase textoFooter">Síguenos en Instagram </h5>
                     <ul class="list-unstyled list-inline">
                         <li class="list-inline-item">
                             <a href="https://www.instagram.com/consumoda_"
@@ -105,15 +104,15 @@
 
                 </div>
                 <div class="col-md-4 col-lg-3 col-xl-3 mt-3 mx-auto">
-                    <h4 class="text-uppercase text-info">Copyright</h4>
+                    <h4 class="text-uppercase textoFooter">Copyright</h4>
                     <p> Consumoda &copy Todos los Derechos Reservados</p>
                 </div>
             </div>
 
-
-
         </div>
     </footer>
+
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
