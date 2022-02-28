@@ -14,13 +14,22 @@
     background-image: url(../images/PortadaPreguntasFrecuentes.png);
     background-size:cover;
     height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portadaTituloPF{
+    font-family: amaranth;
+    color: white;
+    font-size: 15vh;
 }
 .main{
     background-color: #FFC8DD;
+    /* FIJARSE SI QUEDA MEJOR EL ROSA O ESTE*/ 
     padding: 3vh;
 }
 .footer{
-    background-color: #FFAFCC;
+    background-color: #ff93bb;
 }
 .enlaceFooter{
     font-size: 2.4vh;
