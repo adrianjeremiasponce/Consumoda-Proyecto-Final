@@ -1,15 +1,15 @@
 
-.barraDeNavegacion{
+.header{
     background-color: $morado;
 }
 
 .enlace{
-    color: white;
+    color: white !important;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 3vh;
     margin-left: 3vh;
     &:hover{
-        color: $celeste;
+        color: $celeste !important;
     }
 }
 
