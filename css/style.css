@@ -17,48 +17,33 @@
 .enlace:hover{
     color: #BDE0FE;
 }
-.portadaIndex{
-    background-image: url(../images/PortadaIndex.png);
+
+.portadaNosotros, .portadaBlog, .portadaPreguntasFrecuentes, .portadaTienda, .portadaIndex{
     background-size: cover;
     height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.portadaIndex{
+    background-image: url(../images/PortadaIndex.png);
 }
 .portadaTituloIndex{
     font-size: 10vh;
 }
+
 .portadaNosotros{
     background-image: url(../images/PortadaNosotros.png);
-    background-size: cover;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 .portadaPreguntasFrecuentes{
     background-image: url(../images/PortadaPreguntasFrecuentes.png);
-    background-size:cover;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .portadaBlog{
     background-image: url(../images/PortadaBlog.png);
-    background-size:cover;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .portadaTienda{
     background-image: url(../images/PortadaTienda.png);
-    background-size:cover;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .portadaTitulo{
