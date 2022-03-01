@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .barraDeNavegacion{
     background-color: #CDB4DB;
 }
@@ -10,6 +17,14 @@
 .enlace:hover{
     color: #BDE0FE;
 }
+.portadaNosotros{
+    background-image: url(../images/PortadaNosotros.png);
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .portadaPreguntasFrecuentes{
     background-image: url(../images/PortadaPreguntasFrecuentes.png);
     background-size:cover;
@@ -18,16 +33,42 @@
     align-items: center;
     justify-content: center;
 }
-.portadaTituloPF{
+.portadaTitulo{
     font-family: amaranth;
     color: white;
     font-size: 15vh;
 }
 .main{
     background-color: #FFC8DD;
-    /* FIJARSE SI QUEDA MEJOR EL ROSA O ESTE*/ 
     padding: 3vh;
 }
+.mainNosotros{
+    padding: 4vh;
+    margin: 4vh auto;
+    display: flex;
+}
+.seccion1Nosotros{
+    width: 90%;
+}
+
+@media (max-width: 768px) {
+    .mainNosotros{
+        flex-direction: column;
+    }
+    }
+    
+
+.carouselAjustes {
+     width: 55vh; }
+.centrado, .carouselAjustes, .card, .btn {
+        display: flex;
+        margin: auto auto;
+        justify-content: center; }
+.textoNosotros {
+    padding: 3vh;
+    width: 90%;    
+}
+  
 .footer{
     background-color: #ff93bb;
 }
@@ -44,7 +85,7 @@
     margin: 30px auto; }
   
   .carouselAjustes {
-    width: 55vh; }
+    width: 90%; }
 .accordion-button:not(.collapsed) {
   color: black;
   background-color: #fad7f8; }  
