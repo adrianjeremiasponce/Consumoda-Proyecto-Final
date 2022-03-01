@@ -97,7 +97,7 @@ margin-bottom: 5vh;
     padding: 5vh;
 }
 .seccion1Blog img, .seccion2Blog img{
-    width: 60%;
+    width: 50vw;
 }
 .btnBlog{
     width: 10vw;
@@ -120,8 +120,24 @@ margin-bottom: 5vh;
     font-style: italic;
 }
 
-
   
+@media (max-width: 1024px) {
+    .seccion1Blog, .seccion2Blog{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tituloNoticia{
+        font-size: 5vh;
+        text-align: center;
+    }
+    .textoNoticia{
+        text-align: center;
+        font-size: 3vh;
+    }
+    .btnBlog{
+        width: 30%;
+    }
+}
 @media (max-width: 768px) {
     .mainNosotros{
         flex-direction: column;
