@@ -41,6 +41,14 @@
     align-items: center;
     justify-content: center;
 }
+.portadaTienda{
+    background-image: url(../images/PortadaTienda.png);
+    background-size:cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .portadaTitulo{
     color: white;
@@ -50,7 +58,7 @@
     background-color: #FFC8DD;
     padding: 3vh;
 }
-.mainNosotros{
+.mainNosotros, .mainTienda{
     padding: 4vh;
     margin: 4vh auto;
     display: flex;
@@ -109,6 +117,46 @@ margin-bottom: 5vh;
 .textoNoticia{
     font-size: 3vh;
 }
+.containerTienda {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Item1 Item2 Item3"
+      "Item4 Item5 Item6"
+      "Item7 Item8 Item9";
+  }
+  
+  .Item1 { grid-area: Item1;
+           margin:2vh;}
+  
+  .Item2 { grid-area: Item2; 
+           margin:2vh}
+  
+  .Item3 { grid-area: Item3;
+           margin:2vh }
+  
+  .Item4 { grid-area: Item4;
+           margin:2vh }
+  
+  .Item5 { grid-area: Item5;
+           margin:2vh }
+  
+  .Item6 { grid-area: Item6;
+           margin:2vh}
+  
+  .Item7 { grid-area: Item7;
+           margin:2vh }
+  
+  .Item8 { grid-area: Item8;
+           margin:2vh }
+  
+  .Item9 { grid-area: Item9;
+           margin:2vh }
+  
+
+
 .footer{
     background-color: #ff93bb;
 }
@@ -141,5 +189,22 @@ margin-bottom: 5vh;
 @media (max-width: 768px) {
     .mainNosotros{
         flex-direction: column;
+    }
+    .containerTienda{
+    grid-template-columns: 0.5fr 1fr 0.5fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-areas: 
+    ". Item1 ."
+    ". Item2 ."
+    ". Item3 ."
+    ". Item4 ."
+    ". Item5 ."
+    ". Item6 ."
+    ". Item7 ."
+    ". Item8 ."
+    ". Item9 ."; 
+    }
+    .Item1, .Item2, .Item3, .Item4, .Item5, .Item6, .Item7, .Item8, .Item9{
+        width: 65vw;
     }
     }
