@@ -73,10 +73,18 @@
 .seccionIndex{
     width: 26vw;
 }
-.mainIndex, .mainNosotros, .mainTienda{
+.mainIndex, .mainTienda{
     padding: 4vh;
     margin: 4vh auto;
     display: flex;
+}
+.mainNosotros{
+    padding: 4vh;
+    margin: 4vh auto;
+}
+.mainNosotros .primerBloque{
+    display: flex;
+    margin-bottom: 5vh;
 }
 
 .seccion1Nosotros{
@@ -170,7 +178,11 @@ margin-bottom: 5vh;
   .Item9 { grid-area: Item9;
            margin:2vh }
   
-
+           .card-img-top {
+            transition-property: all;
+            transition-duration: 2s; }
+            .card-img-top:hover {
+              transform: scale(1.05); }
 
 .footer{
     background-color: #ff93bb;
@@ -202,7 +214,7 @@ margin-bottom: 5vh;
     }
 }
 @media (max-width: 768px) {
-    .mainIndex, .mainNosotros{
+    .mainIndex, .mainNosotros .primerBloque{
         flex-direction: column;
     }
     .seccionIndex{
