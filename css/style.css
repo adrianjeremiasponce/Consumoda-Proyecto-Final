@@ -65,18 +65,15 @@
     color: white;
     font-size: 15vh;
 }
-.main{
+.mainPreguntasFrecuentes{
     background-color: #FFC8DD;
     padding: 3vh;
 }
-.mainIndex{
-    padding: 3vh;
-    display: flex;
-}
+
 .seccionIndex{
     width: 26vw;
 }
-.mainNosotros, .mainTienda{
+.mainIndex, .mainNosotros, .mainTienda{
     padding: 4vh;
     margin: 4vh auto;
     display: flex;
@@ -205,15 +202,12 @@ margin-bottom: 5vh;
     }
 }
 @media (max-width: 768px) {
-    .mainIndex{
+    .mainIndex, .mainNosotros{
         flex-direction: column;
     }
     .seccionIndex{
         width: 70vw;
         margin-bottom: 3vh;
-    }
-    .mainNosotros{
-        flex-direction: column;
     }
     .containerTienda{
     grid-template-columns: 0.5fr 1fr 0.5fr; 
