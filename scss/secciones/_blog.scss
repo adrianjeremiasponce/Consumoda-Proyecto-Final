@@ -1,0 +1,28 @@
+.mainBlog{
+    padding: 4vh;
+    margin: 4vh auto;
+}
+.seccion1Blog{
+    display: flex;
+    flex-direction: row;
+    padding: 5vh;
+    margin-bottom: 5vh;
+    }
+    .seccion2Blog{
+        display: flex;
+        flex-direction: row;
+        padding: 5vh;
+    }
+    .seccion1Blog img, .seccion2Blog img{
+        width: 50vw;
+    }
+    .btnBlog{
+        width: 10vw;
+    }
+    .tituloNoticia{
+        font-family: amaranth;
+        font-size: 8vh;
+    }
+    .textoNoticia{
+        font-size: 3vh;
+    }

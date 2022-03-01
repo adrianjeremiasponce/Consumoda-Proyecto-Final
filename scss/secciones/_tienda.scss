@@ -1,0 +1,53 @@
+.mainTienda{
+    padding: 4vh;
+    margin: 4vh auto;
+    display: flex;
+}
+
+.containerTienda {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Item1 Item2 Item3"
+      "Item4 Item5 Item6"
+      "Item7 Item8 Item9";
+  }
+  
+  .Item1 { grid-area: Item1;
+           width: 90%;
+           margin: 2vh;
+           }
+  
+  .Item2 { grid-area: Item2; 
+           width: 90%;
+           margin:2vh}
+  
+  .Item3 { grid-area: Item3;
+           width: 90%;
+           margin:2vh }
+  
+  .Item4 { grid-area: Item4;
+           width: 90%;
+           margin:2vh }
+  
+  .Item5 { grid-area: Item5;
+           width: 90%;
+           margin:2vh }
+  
+  .Item6 { grid-area: Item6;
+           width: 90%;
+           margin:2vh}
+  
+  .Item7 { grid-area: Item7;
+           width: 90%;
+           margin:2vh }
+  
+  .Item8 { grid-area: Item8;
+           width: 90%;
+           margin:2vh }
+  
+  .Item9 { grid-area: Item9;
+           width: 90%;
+           margin:2vh }

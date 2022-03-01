@@ -1,0 +1,33 @@
+.carouselAjustes {
+    width: 55vh; }
+.carouselAjustes, .card, .btn {
+       display: flex;
+       margin: 2vh auto;
+       justify-content: center; }
+
+
+.accordionMargin {
+   margin: 30px auto; }
+ 
+ .carouselAjustes {
+   width: 90%; }
+.accordion-button:not(.collapsed) {
+ color: black;
+ background-color: $rosaclaro; }  
+
+
+ .card-img-top {
+     transition-property: all;
+     transition-duration: 1s; 
+     &:hover{
+         transform: scale(1.01);}
+        }
+.card-body{
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+}
+

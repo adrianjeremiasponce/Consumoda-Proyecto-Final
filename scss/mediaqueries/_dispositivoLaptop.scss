@@ -1,0 +1,23 @@
+@media (max-width: 1024px) {
+    .mainNosotros{ .primerBloque{
+        flex-direction: column;}
+    }
+    .textoNosotros{
+        width: 100%;
+    }
+    .seccion1Blog, .seccion2Blog{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tituloNoticia{
+        font-size: 5vh;
+        text-align: center;
+    }
+    .textoNoticia{
+        text-align: center;
+        font-size: 3vh;
+    }
+    .btnBlog{
+        width: 30%;
+    }
+}

@@ -1,0 +1,30 @@
+
+@media (max-width: 768px) {
+    .mainIndex{
+        flex-direction: column;
+    }
+    .portadaTitulo{
+        font-size: 10vh;
+    }
+    .seccionIndex{
+        width: 70vw;
+        margin-bottom: 3vh;
+    }
+    .containerTienda{
+    grid-template-columns: 0.5fr 1fr 0.5fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-areas: 
+    ". Item1 ."
+    ". Item2 ."
+    ". Item3 ."
+    ". Item4 ."
+    ". Item5 ."
+    ". Item6 ."
+    ". Item7 ."
+    ". Item8 ."
+    ". Item9 ."; 
+    }
+    .Item1, .Item2, .Item3, .Item4, .Item5, .Item6, .Item7, .Item8, .Item9{
+        width: 65vw;
+    }
+    }

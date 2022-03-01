@@ -1,0 +1,58 @@
+
+.barraDeNavegacion{
+    background-color: $morado;
+}
+
+.enlace{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3vh;
+    margin-left: 3vh;
+    &:hover{
+        color: $celeste;
+    }
+}
+
+//Portadas//
+
+$altoPortada: 60vh;
+
+@mixin portada($imagen){
+    background-image: $imagen;
+    height: $altoPortada;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+  
+.portadaIndex{
+    @include portada(url(../images/PortadaIndex.png));
+}
+
+.portadaTienda{
+    @include portada(url(../images/PortadaTienda.png));
+
+}
+.portadaNosotros{
+    @include portada(url(../images/PortadaNosotros.png));
+}
+
+.portadaBlog{
+    @include portada(url(../images/PortadaBlog.png));
+}
+
+.portadaPreguntasFrecuentes{
+    @include portada(url(../images/PortadaPreguntasFrecuentes.png));
+}
+
+
+.portadaTituloIndex{
+    font-size: 10vh;
+}
+
+.portadaTitulo{
+    color: white;
+    font-size: 15vh;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import './utilidades/colores';
+@import './header_footer/header' ;
+
+@import './secciones/index';
+
+@import './secciones/tienda';
+@import './secciones/blog';
+@import './secciones/nosotros';
+@import './secciones/preguntasFrecuentes';
+@import './bootstrap/componentesBootstrap';
+
+@import './header_footer/footer';
+
+@import './mediaqueries/dispositivoLaptop';
+@import './mediaqueries/dispositivoTablet';
+
+
