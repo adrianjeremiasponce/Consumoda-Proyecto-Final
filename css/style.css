@@ -17,6 +17,17 @@
 .enlace:hover{
     color: #BDE0FE;
 }
+.portadaIndex{
+    background-image: url(../images/PortadaIndex.png);
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portadaTituloIndex{
+    font-size: 10vh;
+}
 .portadaNosotros{
     background-image: url(../images/PortadaNosotros.png);
     background-size: cover;
@@ -57,6 +68,13 @@
 .main{
     background-color: #FFC8DD;
     padding: 3vh;
+}
+.mainIndex{
+    padding: 3vh;
+    display: flex;
+}
+.seccionIndex{
+    width: 26vw;
 }
 .mainNosotros, .mainTienda{
     padding: 4vh;
@@ -187,6 +205,13 @@ margin-bottom: 5vh;
     }
 }
 @media (max-width: 768px) {
+    .mainIndex{
+        flex-direction: column;
+    }
+    .seccionIndex{
+        width: 70vw;
+        margin-bottom: 3vh;
+    }
     .mainNosotros{
         flex-direction: column;
     }
